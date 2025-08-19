@@ -1,6 +1,6 @@
 # Recommendation System (MovieLens) — End‑to‑End
 
-**Goal:** Build and deploy a hybrid recommender (popularity, collaborative filtering, content-based) with a Streamlit app and simple pipeline.
+**Goal:** Build and deploy a hybrid recommender (popularity, collaborative filtering, content-based) with a Streamlit app and simple pipeline. The accuracy ratings (RMSE: 0.8752 MAE:  0.6719) can be improved upon by tuning the SVD model and using Pearson correlation. 
 
 ## Start
 ```bash
