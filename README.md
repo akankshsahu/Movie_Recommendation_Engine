@@ -1,14 +1,14 @@
-# Recommender System (MovieLens) — End‑to‑End
+# Recommendation System (MovieLens) — End‑to‑End
 
 **Goal:** Build and deploy a hybrid recommender (popularity, collaborative filtering, content-based) with a Streamlit app and simple pipeline.
 
-## Quickstart
+## Start
 ```bash
 # 1) Install deps (ideally in a new venv)
 pip install -r requirements.txt
 
-# 2) (Optional) Download MovieLens 100k and place ratings.csv, movies.csv in data/raw/
-#    https://grouplens.org/datasets/movielens/100k/
+# 2) (Optional) Download MovieLens latest datasets and place ratings.csv, movies.csv in data/raw/
+#    https://grouplens.org/datasets/movielens/
 
 # 3) Prepare data (will auto-generate tiny sample if MovieLens not found)
 python src/data_prep.py
@@ -23,7 +23,7 @@ python src/evaluate.py
 streamlit run app.py
 
 # 7) (Optional) Run end-to-end pipeline
-python src/pipeline.py
+python run_pipeline.py
 ```
 
 ## Structure
